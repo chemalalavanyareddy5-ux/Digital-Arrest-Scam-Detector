@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <h1>🧠 Digital Arrest Scam Detection System</h1>
+  <p>Scan messages, emails, or websites for signs of digital arrest scams and fake threats.</p>
+  <div class="hero-buttons">
+    <a href="{{ url_for('message_page') }}" class="btn primary">Scan Message</a>
+    <a href="{{ url_for('email_page') }}" class="btn">Verify Email</a>
+    <a href="{{ url_for('website_page') }}" class="btn">Check Website</a>
+  </div>
+</section>
+{% endblock %}

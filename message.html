@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="big-box">
+  <h1>💬 Message Scanner</h1>
+  <p>Analyze messages for scam or coercive phrases.</p>
+
+  <form id="messageForm">
+    <textarea name="message" rows="6" placeholder="Paste suspicious message here..."></textarea>
+    <button class="btn primary" type="submit">🔍 Scan Message</button>
+  </form>
+</div>
+{% endblock %}

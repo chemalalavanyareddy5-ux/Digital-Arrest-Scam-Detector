@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="big-box">
+  <h1>📧 Email Verification</h1>
+  <p>Verify if an email sender is legitimate or fake.</p>
+
+  <form id="emailForm">
+    <input type="email" name="email" placeholder="Enter email address..." required>
+    <button class="btn primary" type="submit">🔍 Verify Email</button>
+  </form>
+</div>
+{% endblock %}
